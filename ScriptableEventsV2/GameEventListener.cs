@@ -1,12 +1,11 @@
 using System;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Rendering;
 
-namespace TowerDefense.ScriptableEventsV2
+namespace Bricksloader.ScriptableEventsV2
 {
-    //T- Type E-Event GEC-UnityEntityComponent
+    //T- Type E-Event GEC-GameUnityEvent baseComponent
     public abstract class BaseGameEventListener<T, E, GEC> : MonoBehaviour,
         IGameEventListener<T> where E : BaseGameEvent<T> where GEC : UnityEvent<T>
     {

@@ -1,4 +1,4 @@
-namespace TowerDefense.ScriptableEventsV2
+namespace Bricksloader.ScriptableEventsV2
 {
     public interface IGameEventListener<T>
     {

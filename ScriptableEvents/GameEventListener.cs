@@ -1,9 +1,8 @@
 using System;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace TowerDefense.ScriptableEvents
+namespace Bricksloader.ScriptableEvents
 {
     [Serializable]
     public class GameEventListener :MonoBehaviour

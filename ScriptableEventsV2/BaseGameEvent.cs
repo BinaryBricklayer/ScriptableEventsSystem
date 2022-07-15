@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace TowerDefense.ScriptableEventsV2
+namespace Bricksloader.ScriptableEventsV2
 {
     public abstract class BaseGameEvent<T> : ScriptableObject
     {
