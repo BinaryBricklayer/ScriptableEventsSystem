@@ -1,7 +1,7 @@
-using TowerDefense.Data;
+using Bricksloader.ScriptableEventsV2;
 using UnityEngine.Events;
 
-namespace TowerDefense.ScriptableEventsV2.CustomUnityEventComponent
+namespace ScriptableEventsV2.CustomUnityEventComponent
 {
     [System.Serializable]
     public class UnityActionHealthRequestEvent : UnityEvent<HealthAction>

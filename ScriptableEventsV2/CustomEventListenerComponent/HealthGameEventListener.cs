@@ -1,8 +1,9 @@
-using TowerDefense.Data;
-using TowerDefense.ScriptableEventsV2.ConcreteTypeEvents;
-using TowerDefense.ScriptableEventsV2.CustomUnityEventComponent;
 
-namespace TowerDefense.ScriptableEventsV2.CustomEventListenerComponent
+using Bricksloader.ScriptableEventsV2;
+using ScriptableEventsV2.ConcreteTypeEvents;
+using ScriptableEventsV2.CustomUnityEventComponent;
+
+namespace ScriptableEventsV2.CustomEventListenerComponent
 {
     public class HealthGameEventListener : BaseGameEventListener<Health, HealthEvent, UnityHealthEvent>
     {

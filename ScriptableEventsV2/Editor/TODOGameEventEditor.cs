@@ -1,10 +1,9 @@
-using System.Text;
-using UnityEditor;
+
 using UnityEngine;
 
-namespace TowerDefense.ScriptableEventsV2.Editor
+namespace ScriptableEventsV2.Editor
 {
-    [CustomEditor(typeof(BaseGameEvent<>),true )]
+    // [CustomEditor(typeof(BaseGameEvent<>),true )]
     public class HealthGameEventEditor : UnityEditor.Editor
     {
         public override void OnInspectorGUI()

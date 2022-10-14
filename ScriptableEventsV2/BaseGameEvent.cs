@@ -7,7 +7,7 @@ namespace Bricksloader.ScriptableEventsV2
     {
         private List<IGameEventListener<T>> _listeners;
         private List<IGameEventListener<T>> Listeners => 
-            _listeners ??= new ();
+            _listeners ??= new List<IGameEventListener<T>>();
 
         public void AddListener(IGameEventListener<T> gameEventListener)
         {

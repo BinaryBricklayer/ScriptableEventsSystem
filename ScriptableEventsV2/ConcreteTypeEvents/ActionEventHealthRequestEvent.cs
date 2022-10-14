@@ -1,5 +1,4 @@
-using TowerDefense.Data;
-using TowerDefense.ScriptableEvents;
+using Bricksloader.ScriptableEventsV2;
 using UnityEngine;
 
 namespace TowerDefense.ScriptableEventsV2.ConcreteTypeEvents
