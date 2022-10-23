@@ -11,7 +11,7 @@ namespace Bricksloader.ScriptableEvents
         [SerializeField] internal UnityEvent gameEventCallbacks;
         [SerializeField] private GameEvent gameEvent;
 
-        private void Awake()=>
+        private void OnEnable()=>
             Register();
 
         void Register()=>
